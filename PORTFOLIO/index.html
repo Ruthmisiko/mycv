@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <title>Document</title>
+    <script>
+        function myFunction(){
+            document.getElementById("about-text").innerHTML="Booking form unavailable";
+        }
+    </script>
+</head>
+<body>
+<section id="in">
+    <!--Hero section starts-->
+    <div class="hero">
+        
+            <label for="toggle"><ion-icon name="menu-outline"></ion-icon></label>
+            <input type="checkbox" id="toggle">          
+
+     
+       
+        <nav>
+           <!--<label class="logo"><a href="indexx.html">RUTH</a></label>--> 
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#about-text">About Us</a></li>
+                    <li><a href="#service">Services</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                    
+                </ul>
+                      
+        </nav>
+
+        <div class="content">
+            <h4>Hello, my name is</h4>
+            <h1>Ruth <span style="color:black;">Nafula </span>Misiko</h1>
+            <h3> I'am a Web Developer.</h3>
+            <div class="newsletter">
+                <form>
+                    <input type="email" name="email" id="mail" placeholder="Enter Your Email">
+                    <input type="submit" name="submit" value="Book Now" onclick="window.alert('Thank you for booking with us')">
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!--About section-->
+    <sectionc class="about">
+        <div class="main">
+            <img src="images/a026.jpg">
+            <div id="about-text">
+                <h2><u>About Me</u></h2>
+                <h5> Developer & Designer</h5>
+                <p>I am a front end web developer with quality skills capable of providing clean code,
+                    and presentable user Inerfaces. I also provide authentication services to the website
+                     to enhance cyber security. I have skills in PHP and laravel framework
+                     and therefore i can make a responsive website with back end functionalities.<br>
+                     <button type="button" onclick="myFunction()"> Hire Me</button>
+                </p>
+            </div>
+        </div>
+    </sectionc>
+
+    <!--Service section-->
+    <div id="service">
+        <div class="tittle">
+            <h2><u>My Services</u></h2>
+        </div>
+
+        <div class="box">
+            <div class="card">
+                <ion-icon name="code-slash-outline"></ion-icon>
+                <h5> Web Development</h5>
+                <div class="pra">
+                    <p>I am a web developer with skills in HTML and CSS. specifically am good at front end development with beautiful user interface designs.
+                        I also have skills in PHP and laravel framework used for backend development.
+                    </p>
+                    <p style="text-align: center;">
+                    <a class="button" href="#">Book Now</a></p>
+                </div>
+            </div>
+
+            <div class="card">
+                <ion-icon name="people-outline"></ion-icon>
+                <h5>Portfolio Designs</h5>
+                <div class="pra">
+                    <p>portfolio designs represents your work and and can be shared with clients or anyone interested. Hire me to secure yourself a portfolio design and share with your clients. this will help your clients to see what softares you have worked on </p>
+                    <p style="text-align: center;">
+                    <a class="button" href="#">Book Now</a></p>
+                </div>
+            </div>
+
+            <div class="card">
+                <i class=" fas fa-bars"></i>
+                <h5>Programming Task</h5>
+                <div class="pra">
+                    <p>Do you have pending projects and you are looking for someone to assist you? i am your best solution. i deal with projects related to web development and machine learning. in addition to programming tasks, i have incredible experience in online writing.</p>
+                    <p style="text-align: center;">
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="skills">
+        <div class="tittle">
+            <h2><u>My Skills</u></h2>
+        </div>
+
+        <div class="box">
+            <div class="card1">
+                
+                <!--<img class="img-fluid"src="images/a33.jpg">-->
+                
+            </div>
+
+            <div class="card2">
+                <i class=" fas fa-bars"></i>
+                <h5></h5>
+                <!--<img class="img-fluid"src="images/a027.jpg">
+                <p>HTML and CSS is largely used in web development specifically front end.<br>
+                i have 3 years experience in working with HTML and CSS with quality skills.</p>-->
+            </div>
+
+            <div class="card3">
+                <i class=" fas fa-bars"></i>
+                <h5></h5>
+                <!--<img class="img-fluid"src="images/a29.jpg">-->
+                
+            </div>
+        </div>
+
+    <!--Contact section-->
+    <div class="contact-me">
+        <h5>Contact Me</h5>
+        <a href="mailto:ruthmisiko2@gmail.com"><ion-icon name="mail-outline"></ion-icon></a>
+        <a class="button-two" href="mailto:ruthmisiko2@gmail.com">Email</a>
+    </div>
+
+    <!--footer section-->
+    <footer>
+      
+         <p>&copy Ruth Misiko</p>
+    </footer>
+</section>
+</script>
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
